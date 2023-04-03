@@ -8,4 +8,5 @@ def hello_world():
 
 @app.route("/timeline")
 def timeline():
+    # ここをInstagram対応させられないか
     return render_template("timeline.html", tag="iosdc")
